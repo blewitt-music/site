@@ -1,0 +1,113 @@
+﻿:root 
+{
+--banner-height: 400px;
+}
+
+body, html {height: 100%}
+
+
+/* Classes of gallery images */
+.img-single {width: 100%; display: block; margin-left: 50%; margin-right: 50%}
+.img-slice {width: 100%; display: block}
+.img-center {display: flex; justify-content: center}
+
+/*
+.gallery {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto}
+
+.gallery .imgal{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden}
+*/
+
+/* The banner images */
+
+/* CV */
+.banner-00
+{background-image: url(../img/hero/hero-00.jpg);
+ height: var(--banner-height);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ display: block;
+ width:100%}
+
+/* Fernet */
+.banner-01
+{background-image: url(../img/hero/hero-01.jpg);
+ height: var(--banner-height);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ display: block;
+ width:100%}
+
+/* Clocks */
+.banner-02
+{background-image: url(../img/hero/hero-02.jpg);
+ height: var(--banner-height);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ display: block;
+ width:100%}
+
+/* Actalia */
+.banner-03
+{background-image: url(../img/hero/hero-03.jpg);
+ height: var(--banner-height);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ display: block;
+ width:100%}
+
+/* Hendricks */
+.banner-04
+{background-image: url(../img/hero/hero-4.jpg);
+ height: var(--banner-height);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ display: block;
+ width:100%}
+
+
+
+
+
+.loader {
+  border: 2px solid #74726B;
+  border-radius: 50%;
+  border-top: 2px solid #D8B32B;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
